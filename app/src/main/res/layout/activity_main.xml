@@ -14,14 +14,14 @@
         android:orientation="vertical">
 
 
-        <com.example.validator_lib.ValidatorEditText
+        <com.azamovhudstc.validator_lib.ValidatorEditText
             android:id="@+id/first_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:format="id" />
 
 
-        <com.example.validator_lib.DoubleValidatorText
+        <com.azamovhudstc.validator_lib.DoubleValidatorText
             android:id="@+id/double_password_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             app:passwordEnabled="true" />
 
 
-        <com.example.validator_lib.DoubleValidatorText
+        <com.azamovhudstc.validator_lib.DoubleValidatorText
             android:id="@+id/double_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,42 +37,42 @@
             app:passwordEnabled="false" />
 
 
-        <com.example.validator_lib.ValidatorEditText
+        <com.azamovhudstc.validator_lib.ValidatorEditText
             android:id="@+id/email_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             app:format="email_address" />
 
-        <com.example.validator_lib.ValidatorSpinner
+        <com.azamovhudstc.validator_lib.ValidatorSpinner
             android:id="@+id/validator_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             app:hint="select country" />
 
-        <com.example.validator_lib.ValidatorEditText
+        <com.azamovhudstc.validator_lib.ValidatorEditText
             android:id="@+id/ipaddress_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             app:format="ip_address" />
 
-        <com.example.validator_lib.ValidatorEditText
+        <com.azamovhudstc.validator_lib.ValidatorEditText
             android:id="@+id/phone_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             app:format="phone_number" />
 
-        <com.example.validator_lib.ValidatorEditText
+        <com.azamovhudstc.validator_lib.ValidatorEditText
             android:id="@+id/desc_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:format="zip_code" />
 
 
-        <com.example.validator_lib.ValidatorEditText
+        <com.azamovhudstc.validator_lib.ValidatorEditText
             android:id="@+id/year_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
