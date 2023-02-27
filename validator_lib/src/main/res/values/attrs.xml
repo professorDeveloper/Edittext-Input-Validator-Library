@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StyleInputEditText">
+        <attr name="text" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ValidatorEditText">
+        <attr name="format" format="enum">
+            <enum name="text" value="0"/>
+            <enum name="phone_number" value="1"/>
+            <enum name="ip_address" value="2"/>
+            <enum name="password" value="3"/>
+            <enum name="email_address" value="4"/>
+            <enum name="last_name" value="5"/>
+            <enum name="first_name" value="6"/>
+            <enum name="zip_code" value="7"/>
+            <enum name="year" value="8"/>
+            <enum name="id" value="9"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DoubleEditText">
+        <attr name="passwordEnabled" format="boolean"/>
+        <attr name="maxLength" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ValidatorSpinner">
+        <attr name="hint" format="string"/>
+    </declare-styleable>
+</resources>

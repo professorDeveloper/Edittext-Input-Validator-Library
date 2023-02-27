@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.example.validator_lib.ValidatorEditText
+            android:id="@+id/first_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:format="id" />
+
+
+        <com.example.validator_lib.DoubleValidatorText
+            android:id="@+id/double_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordEnabled="true" />
+
+
+        <com.example.validator_lib.DoubleValidatorText
+            android:id="@+id/double_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordEnabled="false" />
+
+
+        <com.example.validator_lib.ValidatorEditText
+            android:id="@+id/email_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:format="email_address" />
+
+        <com.example.validator_lib.ValidatorSpinner
+            android:id="@+id/validator_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:hint="select country" />
+
+        <com.example.validator_lib.ValidatorEditText
+            android:id="@+id/ipaddress_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:format="ip_address" />
+
+        <com.example.validator_lib.ValidatorEditText
+            android:id="@+id/phone_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:format="phone_number" />
+
+        <com.example.validator_lib.ValidatorEditText
+            android:id="@+id/desc_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:format="zip_code" />
+
+
+        <com.example.validator_lib.ValidatorEditText
+            android:id="@+id/year_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:format="year" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/clear_btn"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="clear" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submit_btn"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="submit" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
