@@ -3,6 +3,10 @@
 ## Overview
 Provides a custom component of Edittext, that facility create forms, and its validations, as require a little lines of code for use
 
+<img src="images/sample.gif" width="200"> 
+
+
+
 ## Changelog
 
 
