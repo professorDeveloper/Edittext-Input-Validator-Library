@@ -1,4 +1,4 @@
-package com.example.validator_lib
+package com.azamovhudstc.validator_lib
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.example.validator_lib
+package com.azamovhudstc.validator_lib
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,6 +10,7 @@ import android.text.TextWatcher
 import android.util.AttributeSet
 import android.widget.EditText
 import android.widget.LinearLayout
+import com.example.validator_lib.R
 
 @SuppressLint("CustomViewStyleable")
 class DoubleValidatorText(context: Context, attrs: AttributeSet?) :

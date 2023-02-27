@@ -1,4 +1,4 @@
-package com.example.validator_lib
+package com.azamovhudstc.validator_lib
 
 import android.content.Context
 import android.graphics.Color
@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.*
 import android.widget.AdapterView.OnItemSelectedListener
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.example.validator_lib.R
 import kotlinx.android.synthetic.main.validator_spinner.view.*
 
 class ValidatorSpinner(context: Context, attrs: AttributeSet?) : ConstraintLayout(context, attrs) {
